@@ -23,12 +23,12 @@ def getAbundantNums(n):
 if __name__ == '__main__':
     x = 28124
     res = getAbundantNums(x)
-    total = range(x)
+    members = range(x)
 
     for i in range(len(res)):
         for j in range(i, len(res)):
             idx = res[i] + res[j]
             if idx < x:
-                total[idx] = 0
+                members[idx] = 0
 
-    print sum(total)
+    print sum(members)
