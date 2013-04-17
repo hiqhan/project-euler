@@ -11,8 +11,7 @@ def digitsOfRc(d):
     n, visited = 1, []
     while True:
         visited.append(n)
-        while n < d:
-            n *= 10
+        n *= 10
         remainder = n % d
         if not remainder:
             return 0
