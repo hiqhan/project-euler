@@ -24,6 +24,6 @@ if __name__ == "__main__":
     n = 1001
     print sumOfNumsOnDiag(n)
     # In fact, lrn and dis are variables dependent on i which is odd number
-    # from 3 to 1001, so we can put them in one formula
+    # from 3 to 1001, so we can put them in one formula.
     # get the result with the following one line command
-    #print 1 + sum(4 * ((i - 2) ** 2) + 10 * (i - 1) for i in xrange(3, 1002, 2))
+    #print 1 + sum(4 * pow(i, 2) - 6 * i + 6 for i in xrange(3, 1002, 2))
