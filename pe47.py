@@ -13,7 +13,7 @@ def getAllPrimes(u):
     pdict = dict()
     allps = []
     for i in range(2, u):
-        n, ps, flag = i,  [], True
+        n, ps, flag = i, [], True
         while n not in pset:
             if n in pdict:
                 ps += pdict[n]
