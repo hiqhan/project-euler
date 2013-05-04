@@ -32,6 +32,8 @@ for step in range(u, 22, -1):
             maxlen, p = step, tmp
             found = True
             break
+        elif tmp > primes[-1]:
+            break
     if found:
         break
 print maxlen, p
