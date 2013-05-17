@@ -5,10 +5,10 @@ from sets import Set
 
 # The key point in this solution is taking use of string comparison.Because it
 # compare two string from the first character and return result once it finds
-# different character. For example, '9oc' > '9mc', '9g' > '8omn'. One string
-# represent each 5-card case. For there are 9 situations in ranking ways, so we
+# different characters. For example, '9oc' > '9mc', '9g' > '8omn'. One string
+# represent each 5-card case. For there are 9 situations in ranking ways, let
 # the first character of each string vary from '9' to '1' and the following
-# string also vary in each situation.
+# string also vary in different ways in each situation.
 points = {'2': 2,
           '3': 3,
           '4': 4,
